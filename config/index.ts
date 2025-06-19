@@ -1,0 +1,50 @@
+import type { Metadata } from "next";
+
+export const links = {
+  sourceCode: "https://github.com/pawardhaval15",
+  ownerName: "Dhaval Pawar",
+  ownerEmail: "pawardhaval15@gmail.com",
+} as const;
+
+export const siteConfig: Metadata = {
+  title: `${links.ownerName}'s Portfolio`,
+  description: "AI Developer | Python Developer | Web Developer | AI Engineer | ReactJS Developer",
+  keywords: [
+    "python",
+    "python developer",
+    "web developer",
+    "django",
+    "flask",
+    "nextjs-portfolio",
+    "ai-developer",
+    "ai-website",
+    "ai-engineer",
+    "reactjs",
+    "nextjs",
+    "vercel",
+    "react",
+    "radix-ui",
+    "3d-portfolio",
+    "three.js",
+    "animated-website",
+    "framer",
+    "framer-motion",
+    "three",
+    "react-icons",
+    "lucide-react",
+    "next-themes",
+    "react-dom",
+    "tailwindcss",
+    "tailwindcss-animate",
+    "js",
+    "javascript",
+    "typescript",
+    "eslint",
+    "html",
+    "css",
+  ] as Array<string>,
+  authors: {
+    name: links.ownerName,
+    url: "https://github.com/pawardhaval15",
+  },
+} as const;
